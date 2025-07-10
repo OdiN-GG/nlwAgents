@@ -12,6 +12,9 @@ await seed(db, schema).refine((f) => ({
     },
     count: 10,
   },
+  questions: {
+    count: 10,
+  }
 }));
 
 console.log('Seeding complete!');
